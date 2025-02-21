@@ -21,6 +21,9 @@
                     <x-nav-link :href="route('transactions.index')">
                        {{  __('Transaction List') }}
                     </x-nav-link>
+                    <x-nav-link :href="route('transfer.form')">
+                       {{  __('Fund Transfer') }}
+                    </x-nav-link>
                 </div>
             </div>
 
